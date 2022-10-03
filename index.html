@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="index.js"></script>
+    <div class="container">
+        <div class="player">
+            <div class="displayPoints">
+                <img src="imgs/person.jpg" alt="Picture of a person">
+                <p> Score: 0</p>
+            </div>
+            <div class="choices">
+                <img class="rock" src="imgs/rock.png" alt="Rock Decision">
+                <img class="paper" src="imgs/paper.png" alt="Paper Decision">
+                <img class="scissors" src="imgs/scissors.png" alt="Scissors Decision">
+            </div>
+        </div>
+        <div>
+            <button class="startGame">Start</button>
+        </div>
+        <div class="computer">
+            <div class="displayPoints">
+                <img src="imgs/robot.jpg" alt="picture of a robot">
+                <p> Score: 0</p>
+            </div>
+            <div class="choices">
+                <img src="imgs/rock.png" alt="Rock Decision">
+                <img src="imgs/paper.png" alt="Paper Decision">
+                <img src="imgs/scissors.png" alt="Scissors Decision">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
