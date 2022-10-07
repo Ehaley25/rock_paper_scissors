@@ -1,23 +1,67 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    border: 2px solid red;
 }
-.container{
-    display: flex;
-    justify-content: space-around;
+body{
+    background-color: black;
+    color: white;
+    padding-top: 75px;
+}
+.main, h1 h2{
+    text-align: center;
+}
+.main h1{
+    font-size: 85px;
+    margin-bottom: 50px;
+}
+.main h3{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.main h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.choices{
+    text-align: center;
 }
 .choices img{
+    border: 2px solid whitesmoke;
+    padding: 10px;
     height: 100px;
     width: 100px;
-    cursor:pointer;
+    margin: 0px 30px 70px 30px;
 }
-img{
-    height: 75px;
-    width: 75px;
-}
-.displayPoints{
+.teamDisplay{
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.displayHumanScore, .displayCompuerScore{
+    font-size: 20px;
+}
+.displayHumanScore{
+    color:green;
+}
+.displayCompuerScore{
+    color: red;
+}
+#results{
+    text-align: center;
+    font-size: 25px;
+}
+#container{
+    text-align: center;
+    margin-top: 20px;
+}
+#container button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 4px 3px white;
 }

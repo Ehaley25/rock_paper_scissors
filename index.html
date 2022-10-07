@@ -9,32 +9,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="player">
-            <div class="displayPoints">
-                <img src="imgs/person.jpg" alt="Picture of a person">
-                <p> Score: 0</p>
+    <div class="main">
+        <h1>Rock, Paper , Scissors?</h1>
+        <h3>Can you even beat a computer in Rock, Paper, Scissors ???</h3>
+        <h2>Choose Your Weapon</h2>
+        <div class="choices">
+            <img class="pChoices" id="Rock"src="imgs/rock.png" alt="Rock img">
+            <img class="pChoices" id="Paper" src="imgs/paper.png" alt="Paper img">
+            <img class="pChoices" id="Scissors" src="imgs/scissors.png" alt="Scissors img">
+        </div>
+    </div>
+    <div>
+        <div class="teamDisplay">
+            <div class="displayHumanScore">
+                <h2>Human</h2>
+                <p id="humanScore"></p>
             </div>
-            <div class="choices">
-                <img class="rock" src="imgs/rock.png" alt="Rock Decision">
-                <img class="paper" src="imgs/paper.png" alt="Paper Decision">
-                <img class="scissors" src="imgs/scissors.png" alt="Scissors Decision">
+            <div class="displayCompuerScore">
+                <h2>Computer</h2>
+                <p id="computerScore"></p>
             </div>
         </div>
-        <div>
-            <button class="startGame">Start</button>
-        </div>
-        <div class="computer">
-            <div class="displayPoints">
-                <img src="imgs/robot.jpg" alt="picture of a robot">
-                <p> Score: 0</p>
-            </div>
-            <div class="choices">
-                <img src="imgs/rock.png" alt="Rock Decision">
-                <img src="imgs/paper.png" alt="Paper Decision">
-                <img src="imgs/scissors.png" alt="Scissors Decision">
-            </div>
-        </div>
+    </div>
+    <div>
+        <p id="results"></p>
+    </div>
+    <div id="container">
+    
     </div>
 </body>
 </html>
